@@ -1,0 +1,33 @@
+body {
+    background-color: #eee;
+    font-family: "Arial", serif;    
+}
+
+.table {
+    background-color: lavender;
+}
+
+.card {
+    background-color: lightsteelblue;
+    font: "Calibri", serif;
+}
+
+.first {
+    background-color: green;
+}
+
+.last {
+    background-color: red;
+}
+
+.second {
+    background-color: chartreuse;
+}
+
+.nine {
+    background-color: coral;
+}
+
+.save {
+    background-color: gray;
+}
