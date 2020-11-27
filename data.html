@@ -1,0 +1,128 @@
+<DOCTYPE html>
+    <html>
+    <head>
+        <title>UPhotoS</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+              integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+                integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+                integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+                crossorigin="anonymous"></script>
+	    <link rel="stylesheet" href="Styles.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="сжатые/logomini.jpg" width="35" height="35" class="d-inline-block align-top" alt="" loading="lazy">
+                UphotoS
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="form.html">Добавить фото</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="data.html">Лучшие фото</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div>
+            <img src="сжатые/мост.jpg" />
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Пользователь</th>
+                                <th>Фото</th>
+                                <th>Оценок</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class = "first">
+                                <th>1</th>
+                                <th>Mark</th>
+                                <th>Котик</th>
+                                <th>13</th>
+                            </tr>
+                            <tr class = "second">
+                                <th>2</th>
+                                <th>Mark</th>
+                                <th>Птички</th>
+                                <th>12</th>
+                            </tr>
+                            <tr>
+                                <th>3</th>
+                                <th>Mark</th>
+                                <th>Горы</th>
+                                <th>11</th>
+                            </tr>
+                            <tr>
+                                <th>4</th>
+                                <th>Mark</th>
+                                <th>Пальма</th>
+                                <th>10</th>
+                            </tr>
+                            <tr>
+                                <th>5</th>
+                                <th>Mark</th>
+                                <th>Собачка</th>
+                                <th>9</th>
+                            </tr>
+                            <tr>
+                                <th>6</th>
+                                <th>Mark</th>
+                                <th>Море</th>
+                                <th>8</th>
+                            </tr>
+                            <tr>
+                                <th>7</th>
+                                <th>Mark</th>
+                                <th>Река</th>
+                                <th>7</th>
+                            </tr>
+                            <tr>
+                                <th>8</th>
+                                <th>Mark</th>
+                                <th>Огонь</th>
+                                <th>6</th>
+                            </tr>
+                            <tr class = "nine">
+                                <th>9</th>
+                                <th>Mark</th>
+                                <th>Луг</th>
+                                <th>5</th>
+                            </tr>
+                            <tr class = "last">
+                                <th>10</th>
+                                <th>Mark</th>
+                                <th>Дуб</th>
+                                <th>1</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2020 - UphotoS - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </footer>
+    </body>
+
+</html>
